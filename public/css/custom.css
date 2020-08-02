@@ -1,0 +1,60 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background: #ffffff;
+    display: flex;
+    flex-flow: column;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #222;
+}
+
+#content {
+    margin-left: 130px;
+    margin-right: 130px;
+}
+
+#register-div {
+    width: 70%;
+}
+
+#no_shadow {
+    box-shadow: 0px 0px 0px 0px #ccc;
+}
+
+.card {
+    border-radius: 0;
+    box-shadow: 0.5px 0.5px 1.5px 0.5px #ccc;
+    border-color: none;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.btn {
+    border-radius: 0;
+    box-shadow: 0.5px 0.5px 1.5px 0.5px #ccc;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
+}
+
+#header_report {
+    text-align: center;
+    font-weight: bold;
+}
